@@ -7,7 +7,8 @@ include(FetchContent)
 
 FetchContent_Declare(
         clc
-        GIT_REPOSITORY https://gitee.com/lontten/clc.git
+        GIT_REPOSITORY https://github.com/lontten/clc.git
+        #GIT_REPOSITORY https://gitee.com/lontten/clc.git # 国内可以使用gitee
         GIT_TAG main
 )
 FetchContent_MakeAvailable(clc)
