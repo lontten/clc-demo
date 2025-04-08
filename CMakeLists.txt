@@ -15,6 +15,4 @@ FetchContent_MakeAvailable(clc)
 
 
 add_executable(clc_demo main.cpp)
-
-target_include_directories(clc_demo PRIVATE ${clc_SOURCE_DIR}/include)
 target_link_libraries(clc_demo PRIVATE clc)
