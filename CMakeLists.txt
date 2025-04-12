@@ -11,6 +11,7 @@ FetchContent_Declare(
         #GIT_REPOSITORY https://gitee.com/lontten/clc.git # 国内可以使用gitee
         GIT_TAG main
 )
+set(CLC_BUILD_EXAMPLES OFF CACHE BOOL "Disable clc examples") # 关闭示例项目
 FetchContent_MakeAvailable(clc)
 
 
